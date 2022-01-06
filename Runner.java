@@ -42,7 +42,13 @@ public class Runner {
 		
 		System.out.println(blackjack.blackJack(20, 20));
 		
+		//unique sum
 		
+		UniqueSum uniquesum = new UniqueSum();
+		
+		System.out.println(uniquesum.uniqueSum(1, 2, 3));
+		System.out.println(uniquesum.uniqueSum(3, 3, 3));
+		System.out.println(uniquesum.uniqueSum(1, 1, 2));
 	}
 
 }
